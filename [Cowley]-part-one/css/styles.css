@@ -1,0 +1,297 @@
+/*Mobile First*/
+
+.body {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex: 1;
+    background-color: #F0ECEE;
+    
+}
+    
+
+
+.Fh1 {
+    font-weight: 600;
+}
+
+.h2 {
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    flex: 1;
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #88898B;
+    font-weight: 400; 
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+}
+
+/*Font*/
+.fontfam {
+    font-family: 'Fira Sans', sans-serif   
+}
+
+.redtext {
+    text-decoration: none;
+    color: #FF4850;
+    padding-left: 1%;
+}
+
+.greyfont {
+    color: #88898B;
+    font-weight: 300;
+}
+/*Body Section*/
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+.nav_bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;   
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.navlink {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex: 1;   
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+.nav-but {
+    flex-basis: auto;  
+    list-style-type: none;
+    flex: 1;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.texbod {
+    display: flex;
+    padding-top: 10%;
+    flex: 1;  
+    flex-direction: column;
+    width: auto;    
+    height: 100%;
+}
+
+.texdiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    width: 95%;
+}
+
+/*Button Section*/
+/*The instructions said to make the border-radius 15px, but that setting makes the edges too round and doesn't look even close to the screenshots provided. 8px seems to be very close, and gives it a soft enough look while keeping a firmer edge.*/
+
+.BBBox {
+    padding-left: 5%;
+}
+.button1 {
+    background-color: #FF4850;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+    width: 100%;
+    color: white;
+    
+}
+
+.bodybutton {
+    padding: 0;
+    background-color: #FF4850;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+    width: 100%;
+    color: white;
+}
+
+.buttpadtop {
+    padding-top: 5%;
+}
+
+.buttpadleft {
+    padding-left: 0;
+}
+/*Hovering Button/Link Section*/
+a:hover {
+    color: #FF4850;
+}
+
+.button1:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+.bodybutton:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+    /*Tags Section*/
+.html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex: 1;
+    
+}
+
+/*Background Pic*/
+.backgroundpic {
+    background-image: url('Images/bulldog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.header {
+    display: flex;
+    height: 100%;
+    flex: 1; 
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: auto; 
+    align-items: baseline; 
+    
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;   
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.navlink {
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    flex: 1;   
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    justify-content: center;
+}
+    
+.buttpadtopz {
+    padding-top: 0%;
+}
+    
+.buttpadtop1 {
+    padding-top: 1%;    
+}
+
+/*
+.buttpadbottom {
+    padding-bottom: 2%;
+}
+*/
+
+.buttpadleft {
+     padding-left: 5%;   
+    }
+
+.bodybutton {
+    padding: 0;
+    background-color: #FF4850;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+    width: 40%;
+    color: white;
+}
+    
+.texbod {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 5%
+    flex: 1;  
+    flex-direction: column;
+    width: 40%;    
+    height: 100%;
+}
+
+.texdiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    width: 95%;  
+    padding-left: 5%;
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
